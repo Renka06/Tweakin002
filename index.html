@@ -18,10 +18,10 @@
 
   <style>
   :root{
-    --neo-primary:#00ffc6;
-    --neo-secondary:#45a3ff;
-    --neo-accent:#78ff54;
-    --neo-glow: 0 0 18px rgba(0,255,198,.25), 0 0 40px rgba(69,163,255,.18);
+    --neo-primary:#9500ff;
+    --neo-secondary:#3b00a1;
+    --neo-accent:#4235d5;
+    --neo-glow: 0 0 18px rgba(218, 9, 255, 0.25), 0 0 40px rgba(255, 1, 251, 0.18);
   }
 
   body{
@@ -44,7 +44,7 @@
   .brand .dot{
     width:.55rem; height:.55rem; border-radius:50%;
     background: var(--neo-primary);
-    box-shadow:0 0 10px rgba(0,255,198,.6);
+    box-shadow:0 0 10px rgba(202, 78, 252, 0.6);
   }
   @keyframes brandPulse{
     0%,100%{filter: drop-shadow(0 0 0 rgba(0,255,198,0));}
@@ -67,7 +67,7 @@
   .tilt-wrap{ perspective: 1000px; }
   .tilt-wrap .neo-panel:hover{
     transform: translateY(-6px) rotateX(1deg) rotateY(.5deg);
-    box-shadow: 0 18px 60px rgba(0,0,0,.28), var(--neo-glow);
+    box-shadow: 0 18px 60px rgba(14, 0, 54, 0.28), var(--neo-glow);
     border-color: color-mix(in srgb, var(--bs-border-color) 60%, var(--neo-primary));
   }
 
@@ -148,7 +148,9 @@
   <!-- NAVBAR -->
   <nav id="mainNav" class="navbar navbar-expand-md bg-body-tertiary fixed-top border-bottom">
     <div class="container-fluid">
-      <a class="navbar-brand brand" href="#top"><span class="dot"></span>CACTUS-IX</a>
+      <a class="navbar-brand brand" href="#top"><span class="spinner-grow" role="status"></span>Cactus IX</a>
+  
+
 
       <button class="navbar-toggler" type="button"
               data-bs-toggle="collapse" data-bs-target="#navContent"
